@@ -1,10 +1,9 @@
 import { Injectable } from '@angular/core';
-
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 
 import { Observable, of } from 'rxjs';
-
 import { catchError, map, tap } from 'rxjs/operators';
+
 import { Conhecimentos } from './../models/conhecimento';
 
 @Injectable({
@@ -17,15 +16,15 @@ export class ConhecimentoService {
 
   constructor(private http: HttpClient) { }
 
-  getAll(): Observable<Conhecimentos[]> {
-    return  this.http.get<Conhecimentos[]>(this.conhecimentosUrl).pipe(
+  getAll(search?: string): Observable<Conhecimentos[]> {
+    return this.http.get<Conhecimentos[]>(this.conhecimentosUrl, { params: { q: search } }).pipe(
       // tap(_ => this.console.log('Conhecimento')),
       catchError(this.handleError<Conhecimentos[]>('Conhecimento', []))
     );
   }
 
 
-  private handleError<T> (operation = 'operation', result?: T) {
+  private handleError<T>(operation = 'operation', result?: T) {
     return (error: any): Observable<T> => {
 
       // TODO: send the error to remote logging infrastructure

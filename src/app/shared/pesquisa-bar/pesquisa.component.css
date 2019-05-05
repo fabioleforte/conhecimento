@@ -5,27 +5,63 @@
   background-color: #FFFFFF;
 }
 
-.label-copy {
-	height: 24px;
-	width: 148px;
-	color: #605751;
-	font-family: "Itau Text";
-	font-size: 16px;
-	line-height: 24px;
+.rectangle {
+
+  width: 528px;
+  border-radius: 4px;
+  background-color: #FFFFFF;
 }
 
-.rectangle-6-copy-14 {	
-  height: 42px;	width: 400px;	
-  border: 1px solid #D9D3CF;	
-  border-radius: 4px;	
+.label-copy {
+  height: 24px;
+  width: 148px;
+  color: #605751;
+  font-family: "Itau Text";
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.rectangle-6-copy-14 {
+  height: 42px;
+  width: 400px;
+  border: 1px solid #D9D3CF;
+  border-radius: 4px;
   background-color: #FFFFFF;
+}
 
-  .text {	
-    height: 21px;	
-    width: 304px;	
-    color: #252220;	
-    font-family: "Itau Text";	
-    font-size: 16px;	
-    line-height: 21px;}
+.text {
+  height: 21px;
+  width: 304px;
+  color: #252220;
+  font-family: "Itau Text";
+  font-size: 16px;
+  line-height: 21px;
+}
 
+.rectangle-6-copy-14 {
+  height: 42px;
+  width: 400px;
+  border: 1px solid #D9D3CF;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+}
+
+
+.label-copy {
+  height: 24px;
+  width: 157px;
+  color: #605751;
+  font-family: "Itau Text";
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.icon {
+	height: 24px;
+	width: 24px;
+	color: #252220;
+	font-family: itaufonts_master_24px_v1;
+	font-size: 24px;
+	line-height: 25px;
+	text-align: center;
 }

@@ -1,13 +1,66 @@
-<form>
-  <h1 class="rectangle-6-copy-8">Criar Conhecimento</h1>
-  <div class="row">
-    <label class="label-copy">Selecione para criar*</label>
-  </div>
-  <div class="row">
+<h2 class="rectangle-6-copy-8">Criar Conhecimento</h2>
+<div class="row">
+  <label>Selecione para criar*</label>
+</div>
+<div class="row">
 
-      <input type="search" class="form-control  rectangle-6-copy-14 text" id="search-input" placeholder="Pesquisar" autocomplete="off" data-docs-version="4.3" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-owns="algolia-autocomplete-listbox-0" dir="auto" >
+  <!-- <input type="text" class="form-control rectangle-6-copy-8" (click)="test()">
+    <div class="rectangle-6-copy-8"></div>
+    <select class="custom-select rectangle" multiple *ngIf="valid" (click)="test()">
+      <option value="1"></option>
+      <option value="1" *ngFor="let item of list" #ipt>{{ item.name }}</option>
 
-  </div>
+    </select> -->
+  <select class="custom-select rectangle-6-copy-14" id="inputGroupSelect01">
+    <option selected>Selecione</option>
+    <option value="1" *ngFor="let item of list">{{ item.name }}</option>
+
+  </select>
+</div>
+
+<div class="row">
+  <label>Selecione um tipo de domínio*</label>
+</div>
+
+<div class="row">
+
+  <select class="custom-select rectangle-6-copy-14" id="inputGroupSelect01">
+    <option selected>Selecione</option>
+    <option value="1" *ngFor="let item of list">{{ item.name }}</option>
+
+  </select>
+</div>
+
+<div class="row">
+  <label>Selecione um domínio*</label>
+</div>
+
+<div class="row">
+  <select class="custom-select rectangle-6-copy-14" id="inputGroupSelect01">
+    <option selected>Selecione</option>
+    <option value="1" *ngFor="let item of list">{{ item.name }}</option>
+
+  </select>
+
+</div>
+
+<div class="row">
+  <label>conhecimento</label>
+</div>
+<div class="row">
+  <input type="text" class="rectangle-6-copy-14">
+</div>
+<div class="row">
+  <h4 class="rectangle-6-copy-8 mt-3">Nível de conhecimento</h4>
+  <div class="rectangle-6-copy-8"></div>
+
+  <label class="col-2 icon">
+    <input type="radio" class="float-left" name="options" id="option1" autocomplete="off" checked> Active
+  </label>
+
+  <label class="col-2 icon">
+    <input type="radio" class="float-left" name="options" id="option2" autocomplete="off"> Radio
+  </label>
 
 
-</form>
+</div>

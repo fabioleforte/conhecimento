@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+
 import { ConhecimentoService } from './../../services/conhecimento.service';
 
 @Component({
@@ -8,10 +9,13 @@ import { ConhecimentoService } from './../../services/conhecimento.service';
 })
 export class PesquisaComponent implements OnInit {
   list = [];
+  valid: boolean;
 
   constructor(private conhecimentoService: ConhecimentoService) { }
 
   ngOnInit() {
+
+    this.valid = false;
 
     this.conhecimentoService.getAll().subscribe(resp => {
       this.list = resp;
@@ -21,4 +25,12 @@ export class PesquisaComponent implements OnInit {
     });
   }
 
+  test() {
+    if (this.valid === false) {
+      this.valid = true;
+    } else {
+      this.valid = false;
+      // }
+    }
+  }
 }
