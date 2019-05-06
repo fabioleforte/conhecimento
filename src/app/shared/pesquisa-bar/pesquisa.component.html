@@ -3,22 +3,23 @@
   <label>Selecione para criar*</label>
 </div>
 <div class="row">
+  <form [formGroup]="searchForm">
+    <input type="text" class="form-control rectangle-6-copy-8" formControlName="searchControl" (keyup)="test()">
+    <!-- <div class="rectangle-6-copy-8"></div> -->
+    <select class="custom-select rectangle" multiple *ngIf="valid" (keyup)="test()">
+      <option value="1" *ngFor="let item of list">{{ item.name }}</option>
 
-  <!-- <input type="text" class="form-control rectangle-6-copy-8" (click)="test()">
-    <div class="rectangle-6-copy-8"></div>
-    <select class="custom-select rectangle" multiple *ngIf="valid" (click)="test()">
-      <option value="1"></option>
-      <option value="1" *ngFor="let item of list" #ipt>{{ item.name }}</option>
-
-    </select> -->
-  <select class="custom-select rectangle-6-copy-14" id="inputGroupSelect01">
+    </select>
+    <!-- <select class="custom-select rectangle-6-copy-14" id="inputGroupSelect01">
     <option selected>Selecione</option>
     <option value="1" *ngFor="let item of list">{{ item.name }}</option>
 
-  </select>
+  </select> -->
+
+  </form>
 </div>
 
-<div class="row">
+<!-- <div class="row">
   <label>Selecione um tipo de domínio*</label>
 </div>
 
@@ -60,7 +61,7 @@
 
   <label class="col-2 icon">
     <input type="radio" class="float-left" name="options" id="option2" autocomplete="off"> Radio
-  </label>
+  </label> -->
 
 
-</div>
+<!-- </div> -->

@@ -18,6 +18,7 @@ export class ConhecimentoService {
 
   getAll(search?: string): Observable<Conhecimentos[]> {
     return this.http.get<Conhecimentos[]>(this.conhecimentosUrl, { params: { q: search } }).pipe(
+      map(resp => resp),
       // tap(_ => this.console.log('Conhecimento')),
       catchError(this.handleError<Conhecimentos[]>('Conhecimento', []))
     );

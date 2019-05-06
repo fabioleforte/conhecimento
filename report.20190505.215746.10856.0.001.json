@@ -1,0 +1,240 @@
+
+{
+  "header": {
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20190505.215746.10856.0.001.json",
+    "dumpEventTime": "2019-05-05T21:57:46Z",
+    "dumpEventTimeStamp": "1557104266991",
+    "processId": 10856,
+    "cwd": "C:\\conhecimento",
+    "commandLine": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:/Users/Fabio/AppData/Roaming/npm/node_modules/@angular/cli/bin/ng",
+      "s"
+    ],
+    "nodejsVersion": "v12.1.0",
+    "wordSize": 32,
+    "arch": "ia32",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.1.0",
+      "v8": "7.4.288.21-node.16",
+      "uv": "1.28.0",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.38.0",
+      "napi": "4",
+      "llhttp": "1.1.1",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1b",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019a",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "headersUrl": "https://nodejs.org/download/release/v12.1.0/node-v12.1.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.1.0/node-v12.1.0.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.1.0/win-x86/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.17763",
+    "osVersion": "Windows 10 Pro",
+    "osMachine": "i686",
+    "host": "EARTH"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+  ],
+  "javascriptHeap": {
+    "totalMemory": 167215104,
+    "totalCommittedMemory": 167215104,
+    "usedMemory": 151388260,
+    "availableMemory": 743278408,
+    "memoryLimit": 894435328,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 524288,
+        "committedMemory": 524288,
+        "capacity": 524132,
+        "used": 21540,
+        "available": 502592
+      },
+      "new_space": {
+        "memorySize": 1048576,
+        "committedMemory": 1048576,
+        "capacity": 1048264,
+        "used": 1048244,
+        "available": 20
+      },
+      "old_space": {
+        "memorySize": 116461568,
+        "committedMemory": 116461568,
+        "capacity": 116342028,
+        "used": 105724968,
+        "available": 10617060
+      },
+      "code_space": {
+        "memorySize": 4354048,
+        "committedMemory": 4354048,
+        "capacity": 3758464,
+        "used": 3095744,
+        "available": 662720
+      },
+      "map_space": {
+        "memorySize": 4722688,
+        "committedMemory": 4722688,
+        "capacity": 4720728,
+        "used": 1493200,
+        "available": 3227528
+      },
+      "large_object_space": {
+        "memorySize": 40054784,
+        "committedMemory": 40054784,
+        "capacity": 40002644,
+        "used": 40002644,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 1920,
+        "used": 1920,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1048264,
+        "used": 0,
+        "available": 1048264
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 141.5,
+    "kernelCpuSeconds": 19.39,
+    "cpuConsumptionPercent": 1.30975,
+    "maxRss": 316354560,
+    "pageFaults": {
+      "IORequired": 652372,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 6977,
+      "writes": 119
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\Fabio\\AppData\\Roaming",
+    "COMMONPROGRAMFILES": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "EARTH",
+    "COMSPEC": "C:\\WINDOWS\\system32\\cmd.exe",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "EXEPATH": "C:\\Program Files\\Git\\bin",
+    "FPS_BROWSER_APP_PROFILE_STRING": "Internet Explorer",
+    "FPS_BROWSER_USER_PROFILE_STRING": "Default",
+    "HOME": "C:\\Users\\Fabio",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\Fabio",
+    "LANG": "en_US.UTF-8",
+    "LOCALAPPDATA": "C:\\Users\\Fabio\\AppData\\Local",
+    "LOGONSERVER": "\\\\EARTH",
+    "MSYSTEM": "MINGW32",
+    "NODE_ENV": "development",
+    "NUMBER_OF_PROCESSORS": "2",
+    "NVM_HOME": "C:\\Users\\Fabio\\AppData\\Roaming\\nvm",
+    "NVM_SYMLINK": "C:\\Program Files\\nodejs",
+    "OS": "Windows_NT",
+    "OneDrive": "C:\\Users\\Fabio\\OneDrive",
+    "PATH": "C:\\Program Files\\Git\\mingw32\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\Fabio\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Microsoft SQL Server\\110\\DTS\\Binn;C:\\Program Files\\Microsoft SQL Server\\120\\DTS\\Binn;C:\\Program Files\\Microsoft SQL Server\\130\\DTS\\Binn;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\110\\Tools\\Binn;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\ManagementStudio;C:\\Users\\Fabio\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\WINDOWS\\System32\\OpenSSH;C:\\Program Files\\nodejs;C:\\Users\\Fabio\\.windows-build-tools\\python27;C:\\Users\\Fabio\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\npm-lifecycle\\node-gyp-bin;C:\\Users\\Fabio\\AppData\\Roaming\\npm\\node_modules\\windows-build-tools\\node_modules\\.bin;C:\\Users\\Fabio\\AppData\\Roaming\\npm\\node_modules\\.bin;C:\\Program Files\\Git\\mingw32\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\Fabio\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Microsoft SQL Server\\110\\DTS\\Binn;C:\\Program Files\\Microsoft SQL Server\\120\\DTS\\Binn;C:\\Program Files\\Microsoft SQL Server\\130\\DTS\\Binn;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\110\\Tools\\Binn;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\ManagementStudio;C:\\Users\\Fabio\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\WINDOWS\\System32\\OpenSSH;C:\\Users\\Fabio\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Users\\Fabio\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Fabio\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Fabio\\AppData\\Roaming\\npm",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+    "PLINK_PROTOCOL": "ssh",
+    "PROCESSOR_ARCHITECTURE": "x86",
+    "PROCESSOR_IDENTIFIER": "x86 Family 6 Model 23 Stepping 10, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "170a",
+    "PROGRAMFILES": "C:\\Program Files",
+    "PSModulePath": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\PowerShell\\Modules\\",
+    "PUBLIC": "C:\\Users\\Public",
+    "PWD": "C:/conhecimento",
+    "ProgramData": "C:\\ProgramData",
+    "SESSIONNAME": "Console",
+    "SHLVL": "2",
+    "SYSTEMDRIVE": "C:",
+    "SYSTEMROOT": "C:\\WINDOWS",
+    "TEMP": "C:\\Users\\Fabio\\AppData\\Local\\Temp",
+    "TERM": "cygwin",
+    "TERM_PROGRAM": "vscode",
+    "TERM_PROGRAM_VERSION": "1.33.1",
+    "TMP": "C:\\Users\\Fabio\\AppData\\Local\\Temp",
+    "USERDOMAIN": "EARTH",
+    "USERDOMAIN_ROAMINGPROFILE": "EARTH",
+    "USERNAME": "Fabio",
+    "USERPROFILE": "C:\\Users\\Fabio",
+    "VS110COMNTOOLS": "C:\\Program Files\\Microsoft Visual Studio 11.0\\Common7\\Tools\\",
+    "VS120COMNTOOLS": "C:\\Program Files\\Microsoft Visual Studio 12.0\\Common7\\Tools\\",
+    "VS140COMNTOOLS": "C:\\Program Files\\Microsoft Visual Studio 14.0\\Common7\\Tools\\",
+    "WINDIR": "C:\\WINDOWS",
+    "_": "C:/Program Files/nodejs/node"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\System32\\MSASN1.dll",
+    "C:\\WINDOWS\\System32\\bcrypt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\System32\\profapi.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\SYSTEM32\\winmmbase.dll",
+    "C:\\WINDOWS\\System32\\cfgmgr32.dll",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\WINDOWS\\System32\\powrprof.dll",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\System32\\bcryptPrimitives.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\System32\\kernel.appcore.dll",
+    "C:\\WINDOWS\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\WINDOWS\\System32\\NSI.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+    "C:\\Windows\\System32\\rasadhlp.dll",
+    "C:\\WINDOWS\\System32\\fwpuclnt.dll",
+    "C:\\WINDOWS\\system32\\napinsp.dll",
+    "C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "C:\\WINDOWS\\system32\\wshbth.dll",
+    "C:\\WINDOWS\\system32\\NLAapi.dll",
+    "C:\\WINDOWS\\System32\\winrnr.dll"
+  ]
+}
